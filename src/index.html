@@ -22,7 +22,7 @@
             <img class="results-img" alt="placeholder">
           </div>
         </section> -->
-    <h1>YouTube video finder</h1>
+    <!-- <h1>YouTube video finder</h1>
 
     <form id="js-form">
       <label for="search-term">Search term</label>
@@ -38,6 +38,26 @@
     <section id="results" class="hidden">
       <h2>Search results</h2>
       <ul id="results-list">
+      </ul>
+    </section> -->
+
+    <h1>National Parks Search</h1>
+
+    <form id="js-form">
+      <label for="search-term">Search term</label>
+      <input type="text" name="state-code" id="js-state-code" placeholder="Enter 2 Character State Codes separated by commas">
+      <br>
+      <label for="max-results">Maximum results to return</label>
+      <input type="number" name="limit" id="js-limit" value="10">
+
+      <input type="submit" value="Go!">
+    </form>
+
+    <p id="js-error-message" class="error-message"></p>
+    <section id="results" class="hidden">
+      <h2>Search results</h2>
+      <ul id="results-list">
+        
       </ul>
     </section>
   </div>
